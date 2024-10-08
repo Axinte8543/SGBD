@@ -1,0 +1,17 @@
+6.a)Select deoarece select(select an.....) va genera doar o linie, iar select * from (select....) si restul pot sa returneze mai multe randuri
+7.a)1 in cazul interogarii select titlu from carte where cod_autor not in
+8.c)în acelaşi departament şi pe același job pe care au lucrat şi în trecut deoarece o sa ne face intersectia lui cod_departament,cod_job
+9.c)valoarea totală a fiecărei facturi emise în anul curent deoarece avem group by cod_factura si o sa ne face suma fiecarei facturi
+10.d)nu are efect deoarece se termina cu o eroare deoarece Student are 6 coloane iar insertul are doar 5
+11.COMMENT ON TABLE EMP_243 IS 'Informaţii despre angajaţi';
+Adauga un comentariu la tabelul EMP_243 care o sa fie Informatii despre angajati
+12.select table_name,comments from user_tab_comments where table_name like 'EMP_%
+Ca sa verificam comentariul
+13.ALTER SESSION SET NLS_DATE_FORMAT = 'DD.MM.YYYY HH24:MI:SS';
+SELECT SYSDATE FROM DUAL;
+Ca sa formatam data sa fie scrisa in forma de mai sus
+14.2024
+15.SELECT EXTRACT(DAY FROM SYSDATE),EXTRACT(MONTH FROM SYSDATE)
+FROM dual;
+16.select table_name from user_tables where table_name like 'NUME_TABEL_%';
+Selecteaza table_nameurile care sunt de forma 'NUME_TABEL_'
